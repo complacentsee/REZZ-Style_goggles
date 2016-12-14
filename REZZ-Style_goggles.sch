@@ -4359,6 +4359,14 @@ With round pins</description>
 <part name="C38" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="C39" library="rcl" deviceset="C-EU" device="C0603"/>
 <part name="C40" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="LED41" library="adafruit" deviceset="WS2812B" device="3535"/>
+<part name="LED42" library="adafruit" deviceset="WS2812B" device="3535"/>
+<part name="LED43" library="adafruit" deviceset="WS2812B" device="3535"/>
+<part name="LED44" library="adafruit" deviceset="WS2812B" device="3535"/>
+<part name="C41" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="C42" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="C43" library="rcl" deviceset="C-EU" device="C0603"/>
+<part name="C44" library="rcl" deviceset="C-EU" device="C0603"/>
 </parts>
 <sheets>
 <sheet>
@@ -4446,6 +4454,14 @@ With round pins</description>
 <instance part="C38" gate="G$1" x="431.8" y="129.54"/>
 <instance part="C39" gate="G$1" x="441.96" y="129.54"/>
 <instance part="C40" gate="G$1" x="452.12" y="129.54"/>
+<instance part="LED41" gate="G$1" x="1234.44" y="78.74"/>
+<instance part="LED42" gate="G$1" x="1267.46" y="78.74"/>
+<instance part="LED43" gate="G$1" x="1300.48" y="78.74"/>
+<instance part="LED44" gate="G$1" x="1333.5" y="78.74"/>
+<instance part="C41" gate="G$1" x="462.28" y="129.54"/>
+<instance part="C42" gate="G$1" x="472.44" y="129.54"/>
+<instance part="C43" gate="G$1" x="482.6" y="129.54"/>
+<instance part="C44" gate="G$1" x="492.76" y="129.54"/>
 </instances>
 <busses>
 </busses>
@@ -4696,6 +4712,22 @@ With round pins</description>
 <junction x="800.1" y="66.04"/>
 <junction x="764.54" y="66.04"/>
 <junction x="728.98" y="66.04"/>
+<pinref part="LED41" gate="G$1" pin="GND"/>
+<wire x1="1201.42" y1="66.04" x2="1234.44" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="1234.44" y1="68.58" x2="1234.44" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="LED42" gate="G$1" pin="GND"/>
+<wire x1="1234.44" y1="66.04" x2="1267.46" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="1267.46" y1="68.58" x2="1267.46" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="LED43" gate="G$1" pin="GND"/>
+<wire x1="1267.46" y1="66.04" x2="1300.48" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="1300.48" y1="68.58" x2="1300.48" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="LED44" gate="G$1" pin="GND"/>
+<wire x1="1300.48" y1="66.04" x2="1333.5" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="1333.5" y1="66.04" x2="1333.5" y2="68.58" width="0.1524" layer="91"/>
+<junction x="1234.44" y="66.04"/>
+<junction x="1267.46" y="66.04"/>
+<junction x="1300.48" y="66.04"/>
+<junction x="1333.5" y="66.04"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
@@ -4821,6 +4853,23 @@ With round pins</description>
 <junction x="320.04" y="121.92"/>
 <junction x="309.88" y="121.92"/>
 <junction x="299.72" y="121.92"/>
+<pinref part="C41" gate="G$1" pin="2"/>
+<wire x1="452.12" y1="121.92" x2="462.28" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="124.46" x2="462.28" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="C42" gate="G$1" pin="2"/>
+<wire x1="462.28" y1="121.92" x2="472.44" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="472.44" y1="124.46" x2="472.44" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="C43" gate="G$1" pin="2"/>
+<wire x1="472.44" y1="121.92" x2="482.6" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="482.6" y1="124.46" x2="482.6" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="C44" gate="G$1" pin="2"/>
+<wire x1="482.6" y1="121.92" x2="492.76" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="492.76" y1="121.92" x2="492.76" y2="124.46" width="0.1524" layer="91"/>
+<junction x="452.12" y="121.92"/>
+<junction x="462.28" y="121.92"/>
+<junction x="472.44" y="121.92"/>
+<junction x="482.6" y="121.92"/>
+<junction x="492.76" y="121.92"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -4994,6 +5043,22 @@ With round pins</description>
 <junction x="1145.54" y="96.52"/>
 <junction x="1176.02" y="96.52"/>
 <junction x="1206.5" y="96.52"/>
+<pinref part="LED41" gate="G$1" pin="VDD"/>
+<wire x1="1206.5" y1="96.52" x2="1239.52" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="1239.52" y1="93.98" x2="1239.52" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="LED42" gate="G$1" pin="VDD"/>
+<wire x1="1239.52" y1="96.52" x2="1272.54" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="1272.54" y1="93.98" x2="1272.54" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="LED43" gate="G$1" pin="VDD"/>
+<wire x1="1272.54" y1="96.52" x2="1305.56" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="1305.56" y1="93.98" x2="1305.56" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="LED44" gate="G$1" pin="VDD"/>
+<wire x1="1305.56" y1="96.52" x2="1338.58" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="1338.58" y1="96.52" x2="1338.58" y2="93.98" width="0.1524" layer="91"/>
+<junction x="1338.58" y="96.52"/>
+<junction x="1305.56" y="96.52"/>
+<junction x="1272.54" y="96.52"/>
+<junction x="1239.52" y="96.52"/>
 </segment>
 <segment>
 <pinref part="C12" gate="G$1" pin="1"/>
@@ -5119,6 +5184,23 @@ With round pins</description>
 <junction x="421.64" y="134.62"/>
 <junction x="431.8" y="134.62"/>
 <junction x="441.96" y="134.62"/>
+<pinref part="C41" gate="G$1" pin="1"/>
+<wire x1="452.12" y1="134.62" x2="462.28" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="132.08" x2="462.28" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="C42" gate="G$1" pin="1"/>
+<wire x1="462.28" y1="134.62" x2="472.44" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="472.44" y1="132.08" x2="472.44" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="472.44" y1="134.62" x2="482.6" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="482.6" y1="132.08" x2="482.6" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="C44" gate="G$1" pin="1"/>
+<wire x1="482.6" y1="134.62" x2="492.76" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="492.76" y1="134.62" x2="492.76" y2="132.08" width="0.1524" layer="91"/>
+<junction x="452.12" y="134.62"/>
+<junction x="462.28" y="134.62"/>
+<junction x="472.44" y="134.62"/>
+<junction x="482.6" y="134.62"/>
+<junction x="492.76" y="134.62"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -5329,6 +5411,34 @@ With round pins</description>
 <pinref part="LED39" gate="G$1" pin="DO"/>
 <pinref part="LED40" gate="G$1" pin="DI"/>
 <wire x1="1183.64" y1="76.2" x2="1188.72" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="LED40" gate="G$1" pin="DO"/>
+<pinref part="LED41" gate="G$1" pin="DI"/>
+<wire x1="1214.12" y1="76.2" x2="1221.74" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="LED41" gate="G$1" pin="DO"/>
+<pinref part="LED42" gate="G$1" pin="DI"/>
+<wire x1="1247.14" y1="76.2" x2="1254.76" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="LED42" gate="G$1" pin="DO"/>
+<pinref part="LED43" gate="G$1" pin="DI"/>
+<wire x1="1280.16" y1="76.2" x2="1287.78" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="LED43" gate="G$1" pin="DO"/>
+<pinref part="LED44" gate="G$1" pin="DI"/>
+<wire x1="1313.18" y1="76.2" x2="1320.8" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
