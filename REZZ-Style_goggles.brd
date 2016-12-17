@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="5" display="yes" altdistance="0.1" altunitdist="inch" altunit="inch"/>
+<grid distance="0.0001" unitdist="inch" unit="inch" style="lines" multiple="5" display="yes" altdistance="0.1" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -168,7 +168,7 @@ Input</text>
 <wire x1="58.9788" y1="32.385" x2="36.195" y2="9.5758" width="0.0254" layer="20" curve="-76.084643"/>
 <wire x1="29.845" y1="9.6012" x2="7.0612" y2="32.385" width="0.0254" layer="20" curve="-76.053667"/>
 <wire x1="29.845" y1="13.6906" x2="11.049" y2="32.385" width="0.0254" layer="20" curve="-73.212053"/>
-<wire x1="17.4625" y1="38.735" x2="26.0858" y2="38.735" width="0.0254" layer="20"/>
+<wire x1="17.4625" y1="38.735" x2="26.1239" y2="38.737540625" width="0.0254" layer="20"/>
 <wire x1="48.6029" y1="38.735" x2="39.9415" y2="38.735" width="0.0254" layer="20"/>
 <wire x1="48.5775" y1="32.385" x2="40.005" y2="32.385" width="0.0254" layer="20"/>
 <wire x1="17.4244" y1="32.385" x2="26.0858" y2="32.385" width="0.0254" layer="20"/>
@@ -177,13 +177,27 @@ Input</text>
 <wire x1="29.845" y1="19.939" x2="29.845" y2="28.6258" width="0.0254" layer="20"/>
 <wire x1="36.195" y1="20.0025" x2="36.195" y2="28.6004" width="0.0254" layer="20"/>
 <wire x1="17.4625" y1="38.735" x2="29.845" y2="51.1175" width="0.0254" layer="20" curve="-66.948628"/>
-<wire x1="26.0985" y1="38.735" x2="29.845" y2="42.5069" width="0.0254" layer="20" curve="-40.76551"/>
+<wire x1="26.1239" y1="38.737540625" x2="29.845" y2="42.5069" width="0.0254" layer="20" curve="-40.76551"/>
 <wire x1="36.195" y1="42.4815" x2="39.9415" y2="38.735" width="0.0254" layer="20" curve="-40.716676"/>
 <wire x1="40.005" y1="32.385" x2="36.195" y2="28.6004" width="0.0254" layer="20" curve="-41.277572"/>
 <wire x1="29.845" y1="28.6258" x2="26.0858" y2="32.385" width="0.0254" layer="20" curve="-40.906623"/>
 <wire x1="36.195" y1="51.1175" x2="48.6029" y2="38.735" width="0.0254" layer="20" curve="-66.904686"/>
 <wire x1="48.5775" y1="32.385" x2="36.195" y2="20.0025" width="0.0254" layer="20" curve="-66.975668"/>
 <wire x1="29.845" y1="19.939" x2="17.4244" y2="32.385" width="0.0254" layer="20" curve="-67.13794"/>
+<text x="23.522940625" y="43.02251875" size="1.016" layer="20">cutout</text>
+<text x="23.522940625" y="43.02251875" size="1.016" layer="20">cutout</text>
+<text x="22.766021875" y="26.934159375" size="1.016" layer="20">cutout</text>
+<text x="38.35908125" y="26.832559375" size="1.016" layer="20">cutout</text>
+<text x="38.35908125" y="26.832559375" size="1.016" layer="20">cutout</text>
+<text x="38.762940625" y="43.5229" size="1.016" layer="20">cutout</text>
+<text x="38.762940625" y="43.5229" size="1.016" layer="20">cutout</text>
+<text x="38.15588125" y="58.249821875" size="1.016" layer="20">cutout</text>
+<text x="38.15588125" y="58.249821875" size="1.016" layer="20">cutout</text>
+<text x="23.522940625" y="57.8459625" size="1.016" layer="20">cutout</text>
+<text x="22.766021875" y="26.934159375" size="1.016" layer="20">cutout</text>
+<text x="23.370540625" y="12.3088375" size="1.016" layer="20">cutout</text>
+<text x="23.370540625" y="12.3088375" size="1.016" layer="20">cutout</text>
+<text x="37.3481625" y="11.955778125" size="1.016" layer="20">cutout</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -1856,6 +1870,13 @@ Please make sure your boards conform to these design rules.</description>
 <via x="22.225" y="35.052" extent="1-16" drill="0.5"/>
 <wire x1="9.398" y1="36.068" x2="22.225" y2="36.068" width="0.4064" layer="16"/>
 <wire x1="9.398" y1="35.052" x2="22.225" y2="35.052" width="0.4064" layer="16"/>
+<polygon width="0.4064" layer="1" isolate="0.254" rank="4">
+<vertex x="8.89" y="35.56" curve="-90"/>
+<vertex x="33.02" y="59.69"/>
+<vertex x="33.0454" y="59.69" curve="-90"/>
+<vertex x="57.1754" y="35.56" curve="-90"/>
+<vertex x="33.02" y="11.4046" curve="-90.060282"/>
+</polygon>
 </signal>
 <signal name="VDD">
 <contactref element="LED12" pad="2"/>
