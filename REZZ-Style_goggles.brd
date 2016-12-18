@@ -1747,7 +1747,7 @@ Please make sure your boards conform to these design rules.</description>
 </element>
 <element name="GND" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="32.766" y="66.548" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="32.766" y="66.548" size="0.0254" layer="28" rot="MR0"/>
-<attribute name="NAME" x="32.296" y="60.846" size="1.27" layer="26" rot="MR90"/>
+<attribute name="NAME" x="32.296" y="61.354" size="1.27" layer="26" rot="MR90"/>
 </element>
 </elements>
 <signals>
